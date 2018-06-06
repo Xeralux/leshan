@@ -109,6 +109,8 @@ public class LeshanServerDemo {
                             "3340.xml", "3341.xml", "3342.xml", "3343.xml", "3344.xml", "3345.xml", "3346.xml",
                             "3347.xml", "3348.xml", "3349.xml", "3350.xml",
 
+                            "26261.xml",
+
                             "Communication_Characteristics-V1_0.xml",
 
                             "LWM2M_Lock_and_Wipe-V1_0.xml", "LWM2M_Cellular_connectivity-v1_0.xml",

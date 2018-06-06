@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+  <Object ObjectType="MODefinition">
+    <Name>Device Faults</Name>
+    <Description1><![CDATA[VZ LCO Device Faults.]]></Description1>
+    <ObjectID>26261</ObjectID>
+    <ObjectURN>urn:oma:lwm2m:x:26261</ObjectURN>
+    <LWM2MVersion>1.0</LWM2MVersion>
+    <ObjectVersion>1.0</ObjectVersion>
+    <MultipleInstances>Single</MultipleInstances>
+    <Mandatory>Optional</Mandatory>
+    <Resources>
+      <Item ID="0">
+        <Name>Fault Code</Name>
+        <Operations>R</Operations>
+        <MultipleInstances>Single</MultipleInstances>
+        <Mandatory>Mandatory</Mandatory>
+        <Type>Opaque</Type>
+        <RangeEnumeration>
+        </RangeEnumeration>
+        <Units>
+        </Units>
+        <Description><![CDATA[Active fault codes]]></Description>
+      </Item>
+      <Item ID="1">
+        <Name>Reset Fault Codes</Name>
+        <Operations>E</Operations>
+        <MultipleInstances>Single</MultipleInstances>
+        <Mandatory>Mandatory</Mandatory>
+        <Type></Type>
+        <RangeEnumeration>
+        </RangeEnumeration>
+        <Units>
+        </Units>
+        <Description><![CDATA[Reset fault codes that can be reset]]></Description>
+      </Item>
+    </Resources>
+    <Description2 />
+  </Object>
+</LWM2M>
